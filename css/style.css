@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    overflow-x: hidden;
+}
+#navbar{
+    background-image: url(/image/bg-hero-desktop.svg);
+    background-position: center;
+    height: 100vh;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+.nav a{
+    text-decoration: none;
+}
+.navbut{
+    border-radius: 30px;
+   background-color: #fdfcfc;
+   padding: 10px 60px;
+   box-shadow: 3px 3px 3px rgb(190, 188, 214);
+  
+}
+.zhi h1{
+    font-size: 30px;
+    line-height: 40px;
+    padding: 20px 10px;
+}
+.zhi p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.zhi{
+    width: 30%;
+   align-items: center; 
+   padding: 40px 0px;
+   
+  
+}
+.input{
+    border-radius: 30px;
+    background-color: #d62276;
+    padding: 15px 60px;
+    border: none;
+    
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    
+}
+.hero img{
+    width: 60%;
+}
+#zika{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 249, 252);
+    padding: 40px 25px;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.box1 img{
+    width: 30%;
+
+}
+
+.box1text h1{
+    font-size: 20px;
+    
+}
+.box1text p{
+    width: 80%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 255, 255);
+    border-radius: 40px;
+     box-shadow: 5px 5px 5px rgb(66, 66, 70);
+    padding: 30px 2~0px;
+    width: 70%;
+    align-items: center;
+            
+}
+.box2 img{
+    width: 30%;
+    margin-right: 30px;
+}
+.box2text{
+    padding-left: 0px;
+}
+.box2text h1{
+    font-size: 20px;
+    
+}
+.box2text p{
+    width: 80%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(251, 253, 253);
+    border-radius: 40px;
+     box-shadow: 5px 5px 5px rgb(66, 66, 70);
+    padding: 30px 20px;
+    width: 70%;
+    align-items: center;
+            
+}
+.box3 img{
+    width: 30%;
+    margin-right: 30px;
+}
+
+.box3text h1{
+    font-size: 20px;
+    
+}
+.box3text p{
+    width: 80%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 255, 255);
+    border-radius: 40px;
+     box-shadow: 5px 5px 5px rgb(66, 66, 70);
+    padding: 30px 20px;
+    width: 70%;
+    align-items: center;
+            
+}
+.posi{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(66, 66, 70);
+    width: 60%;
+    align-items: center;
+    padding: 80px 10px;
+    text-align: center;
+    background-color: rgb(232, 244, 248);
+    position: relative;
+    top: 120px;
+    
+}
+.posi h1{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.inpu{
+    border-radius: 30px;
+    background-color: #d62276;
+    padding: 15px 60px;
+    border: none;
+   
+    
+}
+#zikaluv{
+    background-color: hsl(243, 79%, 9%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+#zikaluv a{
+color: white;
+text-decoration: none;
+}
+#zikaluv p{
+color: white;
+}
+.btom1{
+padding: 30px 60px;
+}
+.img{
+width: 120px;
+}
+.loca{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+
+    
+}
+.loca p{
+    font-size: 12px;
+    width: 80%;
+    
+}
+.phone{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+}
+.phone p{
+    font-size: 12px;
+    width: 60%;
+    
+}
+.email{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+
+}
+.email p{
+    font-size: 12px;
+    
+}
+.btom2{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.blessing{
+    font-size: 100px;
+}
+.link1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.link1 a{
+    width: 200px;
+}
+.link2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.link2 a{
+    width: 200px;
+    margin: auto;
+}
+.icon{
+    display: flex;
+    gap: 15px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+
+}
+.icon a{
+    color: white;
+}
+.li{
+    
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    
+}
+@media screen and (max-width:992px){
+    .hero{
+        padding: 80px 25px;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .zika{
+        text-align: center;
+    }
+    #zika p{
+        font-size: 15px;
+    }
+    .zhi h1{
+    width: 150%;
+    }
+    .zhi p{
+        font-size: 18px;
+        width: 150%;
+    }
+    .hero img{
+        width: 50%;
+        
+
+    }
+    .boxtext1 p{
+        font-size: 20px;
+    }
+    .posi{
+        padding: 50px 8px;
+    }
+    
+    .btom1{
+        padding: 20px 30px;
+    }
+    .img{
+        width: 200px;
+    }
+    .loca{
+        width: 150%;
+    }
+    .phone p{
+        width: 90%;
+    }
+    .btom2{
+        gap: 0rem;
+        padding: 10px 20px;
+    }
+    .li{
+        margin-right: 50px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px){
+    .hero{
+        padding: 10px 20px;
+    }
+    .zhi h1{
+        width: 170%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .input{
+        padding: 12px 40px;
+    }
+    
+    #zikaluv{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+        
+        
+    }
+    .btom1{
+        padding: 10px 100px;
+    }
+    .btom2{
+        padding: 10px 100px;
+        gap: 7em;
+    }
+    .icon{
+        padding-top: 40px;
+        gap: 10em;
+    }
+    
+    #zika p{
+        font-size: 12px;
+    }
+    .box1{
+        padding: 20px 40px;
+    }
+    .loca{
+        width: 90%;
+    }
+    .email{
+        padding-bottom: 60px;
+    }
+    .baam{
+        padding: 10px 100px;
+    }
+}
+
+@media screen and (max-width:576px){
+.nav{
+    padding: 20px 40px;
+}
+#navbar{
+    height: 130vh;
+}
+.nav img{
+    width: 30%;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+.zhi{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.zhi h1{
+    width: 130%;
+    text-align: center;
+    padding-right: 80px;
+}
+.zhi p{
+    width: 100%;
+}
+.hero img{
+    width: 90%;
+}
+.box1{
+    padding: 15px 30px;
+    width: 100%;
+}.box2{
+    padding: 15px 30px;
+    width: 100%;
+}.box3{
+    padding: 15px 30px;
+    width: 100%;
+}.box4{
+    padding: 15px 30px;
+    width: 100%;
+}
+#zika{
+    gap: 50px;
+}
+#zika p{
+    width: 100%;
+
+}
+.posi{
+    width: 80%;
+    padding-top: 20px;
+}
+.btom1{
+    padding: 10px 60px;
+}
+.btom2{
+
+    padding: 10px 60px;
+    gap: 4em;
+}
+.icon{
+    gap: 7em;
+    padding-bottom: 30px;
+    align-items: center;
+    padding-left: 30px;
+}
+.li{
+    padding-bottom: 0px;
+    padding-top: 40px;
+    text-align: right;
+    
+}
+.baam{
+    padding: 10px 50px;
+}
+}
+@media screen and (max-width:435px){
+    .nav a{
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .nav img{
+        width: 35%;
+       
+    }
+    .zhi{
+        width: 100%;
+        
+    }
+    .zhi p{
+        font-size: 13px;
+    }
+    #navbar{
+        height: 110vh;
+    }
+    .hero img{
+        width: 100%;
+    }
+    .box1{
+        width: 110%;
+    }
+    .box2{
+        width: 110%;
+    }.box3{
+        width: 110%;
+    }
+    #zika img{
+        width: 40%;
+    }
+    #zika p{
+        font-size: 11px;
+        line-height: 15px;
+        
+    }
+    .posi{
+        width: 100%;
+        top: 80px;
+    }
+
+    .btom1{
+        padding: 10px 40px;
+    }
+    .btom2{
+        padding: 10px 40px;
+        gap: 5px;
+    }
+    .icon{
+        gap: 6em;
+        padding-left: 10px;
+    }
+}
+
+
